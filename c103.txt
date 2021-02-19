@@ -1,0 +1,17 @@
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline #use it to show plot directly below the code 
+df= pd.read_csv('2019.csv')
+df.head()
+#> # A tibble: 10,545 x 9
+#>   country  year infant_mortality life_expectancy 
+#>   <fct>   <int>            <dbl>         
+#> 1 china  2020            1753
+#> 2 china  2020          100
+#> 3 china   2020            43
+#> 4 china  2020            17
+#> 5 china  2020            0
+
+#> #   continent <fct>, region <fct>
